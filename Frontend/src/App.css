@@ -1,0 +1,29 @@
+
+/* // admin deshboard  css */
+
+:root {
+    font-family: 'Source Sans Pro';
+  }
+  main#dashboard-main::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  main#dashboard-main::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background-color: rgb(156 163 175 / 0.75);
+  }
+  main#dashboard-main::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(156 163 175 / 0.75);
+    border-radius: 10px;
+  }
+  .emoji-404{
+
+    position: relative;
+    animation: mymove 2.5s infinite;
+  }
+  
+  @keyframes mymove {
+    33%   {top: 0px;}
+    66%  {top: 20px;}
+    100%  {top: 0px}
+  }

@@ -1,0 +1,31 @@
+.price-text{
+    font-size: 25px;
+    color: #D17F6A;
+}
+
+.image-container,.review-container,.description-container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.thumbnail-image{
+    border-radius: 30px;
+}
+
+
+
+/* Quantity Button ----------------- */
+.quantity-container{
+        border:1px solid black;
+        border-radius: 5px;
+}
+
+.increase-button,.decrease-button
+{
+    /* border:1px solid black; */
+    border-radius: 5px;
+    color:#272727;
+}
+
+.increase-button:hover,:hover.decrease-button :hover{
+        color: #6c6e71;
+}
